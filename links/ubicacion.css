@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgba(182, 121, 77, 0.877);
+    font-size: 25px;
+    height: 140px;
+    padding: 10px;
+}
+.navbar{
+    float: right;
+}
+
+.items{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    padding-top: 40px;
+}
+.home{
+    text-decoration: none;
+    color: white;
+}
+.home:hover{
+    color: black;
+    transition: 0.3s ease;
+}
+.contacto{
+    color: white;
+}
+.contacto:hover{
+    color: black;
+    transition: 0.3s ease;
+}
+.horario{
+    color: white;
+}
+.horario:hover{
+    color: black;
+    transition: 0.3s ease;
+}
+.nosotros{
+    color: white;
+}
+.nosotros:hover{
+    color: black;
+    transition: 0.3s ease;
+}
+.ubicacion{
+    color: white;
+}
+.ubicacion:hover{
+    color: black;
+    transition: 0.3s ease;
+}
+nav ul li:hover{
+    color:#fff;
+    transition: 0.3s ease;
+}
+
+main{
+    height: calc(1400px - 10px);
+    background-image: url(../img/opter-pour-un-cafe-en-grains-istock-com-romolotavani-215-1525078763.jpg);
+    background-size: cover;
+
+}
+footer{
+    background-color: rgba(182, 121, 77, 0.877);
+    font-size: 25px;
+    height: 147px;
+    padding: 10px;
+    flex-wrap: wrap;
+
+}
+.copyright{
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.redes{
+    text-align: center;
+    padding: 0;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.redes i:hover{
+    color: black;
+    cursor:pointer;
+    transition: 0.3s ease;
+}
+.cafe{
+    display:inline-flex;
+    flex-wrap: wrap;
+
+}
+.productos{
+    padding: 60px;
+    margin: 180px;
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.507);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(63, 28, 3);
+}
